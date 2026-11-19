@@ -55,6 +55,10 @@ export default function ProductCard({ product, onQuickView }) {
           src={imageSrc}
           alt={product.name}
           loading="lazy"
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80';
+          }}
           style={{
             width: '100%',
             height: '100%',

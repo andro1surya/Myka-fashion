@@ -50,8 +50,8 @@ VALUES
     'USD 11.20-13.50',
     '35 days',
     ARRAY[
-        'https://images.unsplash.com/photo-1583391733975-dd8837e3d3bd?auto=format&fit=crop&w=1000&q=80',
         'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80',
+        'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=1000&q=80',
         'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=80',
         'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=80'
     ],
@@ -200,8 +200,8 @@ VALUES
     'USD 14.50-17.80',
     '35 days',
     ARRAY[
-        'https://images.unsplash.com/photo-1583391733975-dd8837e3d3bd?auto=format&fit=crop&w=1000&q=80',
-        'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80',
+        'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80',
+        'https://images.unsplash.com/photo-1605289982774-9a6fef564df8?auto=format&fit=crop&w=1000&q=80',
         'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=80',
         'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1000&q=80'
     ],
@@ -352,7 +352,7 @@ VALUES
     ARRAY[
         'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=1000&q=80',
         'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80',
-        'https://images.unsplash.com/photo-1583391733975-dd8837e3d3bd?auto=format&fit=crop&w=1000&q=80',
+        'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=1000&q=80',
         'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80'
     ],
     '[{"name": "Teal Botanical", "hex": "#005F73"}, {"name": "Rust Mandala", "hex": "#CA6702"}, {"name": "Navy Paisley", "hex": "#14213D"}]'::jsonb,

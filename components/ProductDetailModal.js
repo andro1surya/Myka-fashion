@@ -140,6 +140,10 @@ export default function ProductDetailModal({ product, isOpen, onClose }) {
               <img
                 src={images[selectedImage]}
                 alt={`${product.name} - View ${selectedImage + 1}`}
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80';
+                }}
                 style={{
                   width: '100%',
                   height: '100%',
@@ -191,6 +195,10 @@ export default function ProductDetailModal({ product, isOpen, onClose }) {
                   <img
                     src={imgUrl}
                     alt={`Thumbnail ${idx + 1}`}
+                    onError={(e) => {
+                      e.currentTarget.onerror = null;
+                      e.currentTarget.src = 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80';
+                    }}
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                 </button>

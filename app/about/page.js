@@ -142,7 +142,7 @@ export default function AboutPage() {
             <div style={{ border: '1px solid var(--color-border)', backgroundColor: 'var(--color-ivory-light)', overflow: 'hidden' }}>
               <div style={{ height: '220px', overflow: 'hidden' }}>
                 <img
-                  src="https://images.unsplash.com/photo-1583391733975-dd8837e3d3bd?auto=format&fit=crop&w=800&q=80"
+                  src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80"
                   alt="Lucknowi Chikankari Georgette"
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
